@@ -9,6 +9,7 @@ The repository includes the following laboratory exercises:
 - **IO Ports** - Input/Output port configuration and control
 - **Interrupts** - Hardware interrupt handling and implementation
 - **Timer** - Timer configuration and operations (CTC mode and normal mode)
+- **ICU** - Input capture mode for measuring time intervals
 
 ## Prerequisites
 
@@ -21,14 +22,12 @@ To run these labs, you will need:
 ## How to Run
 
 1. **Open a Lab File**
-
    - Launch Arduino IDE
    - Go to `File` → `Open`
    - Navigate to the desired lab folder (e.g., `Interrupts/`, `IO Ports/`, or `Timer/`)
    - Select the `.ino` file you want to run
 
 2. **Connect Your Arduino Board**
-
    - Connect your Arduino board to your computer via USB cable
    - In Arduino IDE, go to `Tools` → `Board` and select your Arduino board model
    - Go to `Tools` → `Port` and select the COM port your Arduino is connected to
