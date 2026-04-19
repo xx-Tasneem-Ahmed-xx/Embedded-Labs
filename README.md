@@ -4,12 +4,23 @@ This repository contains the embedded systems laboratory work created for academ
 
 ## Lab Contents
 
-The repository includes the following laboratory exercises:
-
-- **IO Ports** - Input/Output port configuration and control
-- **Interrupts** - Hardware interrupt handling and implementation
-- **Timer** - Timer configuration and operations (CTC mode and normal mode)
-- **ICU** - Input capture mode for measuring time intervals
+- **Lab 1**
+  - **IO Ports** (`lab1/io_ports/io_ports.ino`) - Input/Output port configuration and control
+  - **Motor** (`lab1/motor/motor.ino`) - Basic motor control using microcontroller outputs
+- **Lab 2**
+  - **Interrupt** (`lab2/interrupt/interrupt.ino`) - Hardware interrupt handling and implementation
+- **Lab 3**
+  - **CTC Timer Mode** (`lab3/ctc/ctc.ino`) - Timer in Clear Timer on Compare Match (CTC) mode
+  - **Timer** (`lab3/timer/timer.ino`) - Timer configuration and normal timer operations
+- **Lab 4**
+  - **ICU** (`lab4/icu/icu.ino`) - Input Capture Unit for measuring time intervals
+  - **Timer + 7-Segment** (`lab4/timer_7segment/timer_7segment.ino`) - Timer-driven 7-segment display control
+- **Lab 5**
+  - **ADC** (`lab5/ADC/ADC.ino`) - Analog-to-Digital Converter basic reading
+  - **ADC Interrupt** (`lab5/ADC_INTERRUPT/ADC_INTERRUPT.ino`) - ADC conversion with interrupt-based handling
+  - **ADC LEDs** (`lab5/ADC_LEDS/ADC_LEDS.ino`) - ADC-based LED indication/control
+- **Lab 6**
+  - **SPI** (`lab6/SPI/SPI.ino`) - Serial Peripheral Interface communication basics
 
 ## Prerequisites
 
@@ -24,7 +35,7 @@ To run these labs, you will need:
 1. **Open a Lab File**
    - Launch Arduino IDE
    - Go to `File` → `Open`
-   - Navigate to the desired lab folder (e.g., `Interrupts/`, `IO Ports/`, or `Timer/`)
+   - Navigate to the desired lab folder (e.g., `lab2/interrupt/`, `lab4/timer_7segment/`, or `lab6/SPI/`)
    - Select the `.ino` file you want to run
 
 2. **Connect Your Arduino Board**
